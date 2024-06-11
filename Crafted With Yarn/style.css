@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*Navbar section*/
+
+nav{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+nav.button:focus{
+    border: none;
+    box-shadow: none;
+}
+
+
+.nav-link:hover{
+    color: orange;
+}
+
+.nav-link .active{
+    color: orange;
+}
+
+.navbar-nav li{
+    color: black;
+}
+
+.navbar-toggler-icon{
+    border: transparent;
+}
+
+/*Hero section*/
+.hero{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.hero-text{
+    color: white;
+    padding-top: 250px;
+}
+
+.hero-text p{
+    font-weight: 400;
+}
+
+.hero-button{
+    display: flex;
+    gap: 16px;
+}
+
+.btn1{
+    padding: 7px 26px;
+    border-radius: 0;
+    color: white;
+    background: none;
+    border-color: white;
+    font-size: 14px;
+}
+
+.btn1:hover{
+    color: black;
+    background: white;
+    border: none;
+}
+
+.btn2{
+    padding: 7px 26px;
+    border-radius: 0;
+    background: white;
+    border-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+.btn2:hover{
+    background: none;
+    border-color: white;
+    color: white;
+}
+
+/*products section*/
+.products-title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.products-title h6{
+    color: grey;
+}
+
+.products-title p{
+    color: #b2beb5;
+}
+
+.btn3{
+    color: white;
+    background: black;
+    border-color: none;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.desc a{
+    text-decoration: none;
+}
+
+.btn3:hover{
+    color: black;
+    background: none;
+    border-color: black;
+}
+
+.btn4{
+    background: none;
+    border-color: black;
+    color: black;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.btn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.main img{
+    width: 100%;
+    min-height: 250px;
+}
+
+
+
+/*updates section*/
+#updates{
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+}
+
+.updates h3{
+    color: white;
+    padding-top: 70px;
+    font-weight: 550px;
+}
+
+.input-group{
+    border-color: white;
+    height: 40px;
+}
+
+.input-group #email1{
+    background: none;
+    border-radius: 0;
+    border-width: 2px;
+}
+
+.input-group #email:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.input-group #email::placeholder{
+    color: white;
+    font-size: italic;
+}
+
+.btn5{
+    border-color: white;
+    background: none;
+    color: white;
+    border-width: 2px;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.btn5:hover{
+    color: black;
+    background: white;
+    border: none;
+}
+
+.updates p{
+    color: white;
+    padding-top: 30px;
+}
+
+/*product about*/
+#pabout{
+    margin-top: 100px;
+    background-color: whitesmoke;
+}
+
+.product-title{
+    padding-top: 100px;
+}
+
+.product-title h6{
+    color: grey;
+    letter-spacing: 2px;
+    font-style: bold;
+}
+
+.product-title h1{
+    font-weight: 700;
+}
+
+.product-title p{
+    color: grey;
+}
+
+.products-body .main img{
+    transition: all 0.3 ease;
+}
+
+.products-body .main:hover img{
+    transform: scale(1.1);
+}
+
+.products-body .main{
+    overflow: hidden;
+}
+
+.p1{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.p2{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.pabout-text{
+    padding-bottom: 30px;
+}
+
+.btn6{
+    background: none;
+    border-color: black;
+    color: black;
+    border-radius: 0;
+}
+
+.btn6:hover{
+    background: black;
+    color: white;
+    border: none;
+}
+
+.btn7{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+.btn7:hover{
+    background: none;
+    border-color: black;
+    color: black;
+}
+
+/*about us*/
+.tw{
+    bottom: -10px;
+    right: -5px;
+    background-color: rgb(70,221,176);
+    z-index: 2;
+    position: absolute;
+}
+#about-us{
+    margin-top: 100px;
+}
+
+.about-us-text h6{
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.about-us-text h1{
+    font-weight: 700;
+}
+
+.btn8{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+.btn8:hover{
+    background: white;
+    border-color: black;
+    color: black;
+}
+
+/*leadership*/
+#leadership{
+    margin-top: 100px;
+}
+
+.leadership-title h6{
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.leadership-title h1{
+    font-weight: 700;
+}
+
+.leadership-body{
+    margin-top: 100px;
+}
+
+/*special section*/
+.special{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    margin-top: 100px;
+}
+
+.special h6{
+    color: lightgrey;
+    padding-top: 100px;
+    font-size: 14px;
+}
+
+.special h1{
+    color: white;
+    font-weight: 700;
+}
+
+.special p{
+    color: white;
+}
+
+
+
+/*services*/
+#services{
+    margin-top: 100px;
+    background-color: whitesmoke;
+}
+
+.services-title{
+    padding-top: 100px;
+}
+
+.services-title h6{
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.services-title h1{
+    font-weight: 700;
+}
+
+.services-body{
+    margin-top: 100px;
+}
+
+.services-body a{
+    text-decoration: none;
+    color: orange;
+}
+
+/*testimonials*/
+
+.testimonials-title{
+    padding-top: 100px;
+}
+
+.testimonials-title h6{
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.testimonials-title h1{
+    font-weight: 700;
+}
+
+.testimonials-body{
+    margin-top: 100px;
+}
+
+.testimonials-image img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.testimonials-desc p{
+    padding-top: 50px;
+    color: rgb(151, 148, 148);
+    font-size: 16px;
+}
+
+/*blog*/
+#blog{
+    margin-top: 100px;
+}
+
+.blog-title h6{
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.blog-title h1{
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+.blog .image{
+    overflow: hidden;
+}
+
+.blog .image:hover img{
+    transform: scale(1.15);
+}
+
+/*git*/
+.form-control:focus{
+    box-shadow: none;
+}
+
+#git{
+    margin-top: 100px;
+    background-color: whitesmoke;
+}
+
+.git-title h6{
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.git-title h1{
+    font-weight: 700;
+}
+
+.btn9{
+    height: 50px;
+    background: black;
+    color: white;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.btn9:hover{
+    border-color: black;
+    background: none;
+    color: black;
+}
+
+/*footer*/
+#footer{
+    margin-top: 100px;
+}
+
+.footer-text i:hover{
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.footer-text i{
+    padding: 3px 4px;
+}
+
+.footer-text a{
+    text-decoration: none;
+    color: rgb(197, 190, 190);
+}
+
+.footer-text a:hover{
+    color: orange;
+    transition: all 0.5s ease;
+}
+
+#submit{
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    background: black;
+    border: none;
+}
+
+.footer .image{
+    overflow: hidden;
+}
+
+.footer .image:hover img{
+    transform: scale(1.15);
+}
+
+
+
+@media screen and (max-width: 620px){
+    .services{
+        text-align: justify;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .leadership-body .desc{
+        padding-bottom: 50px;
+       }
+}
+
